@@ -1,0 +1,227 @@
+.hero{
+    height: 850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/hero.jpg);
+
+    }
+    .logo ul{
+        display: flex;
+        text-align: center;
+        list-style: none;
+       
+        }
+        .logo a {
+            margin: 15px 24px;
+            text-decoration:none;
+            font-family:Arial;
+            color:black;
+            font-size: 24px;
+            
+
+
+        }
+        .heading{
+            text-align: center;
+            font-size:112px;
+            padding-top: 50px;
+        }
+        .head{
+            text-align: center;
+        }
+        .logo button{
+            position: absolute;
+            right: 10px;
+            top: 70px;
+            
+        }
+        .btn:hover{
+            border-color: #cbdeec;
+        }
+        .line{
+            width: 3%;
+            height:2px;
+            border-width:0;
+            color:rgb(17, 16, 16);
+            background-color:rgb(17, 16, 16);
+            
+        }
+        .logo h1{
+            font-size: 40px;
+            font-weight: 400;
+            margin: 40px 0;
+        }
+        .logo h1 a {
+            color: #000;
+            
+        }
+        
+        .logo h1 a span {
+            color: #4d9fda;
+        }
+        .articles h1{
+            font-size: 32px;
+            text-align: center;
+            margin-top: 250px;
+        }
+
+        .dash{
+            width: 5%;
+            height:2px;
+            border-width:0;
+            color:gray;
+            background-color:gray;
+            position: center;
+        }
+
+        .articles{
+            background-color:#F8F8F8;
+            height: 950px;
+        }
+        .row{
+          margin-top: 5%;
+          display: flex;
+          justify-content: space-evenly;
+
+        }
+        .drones{
+            flex-basis: 31%;
+            background:#F8F8F8;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box; 
+            transition: 0.5s; 
+            text-align: center;
+        
+        }
+        .drones:hover{
+         box-shadow: 0 0 20px 0 rgba(0,0,0,0,2);
+        }
+        .drones-col p{
+            text-align: center;
+        }
+        .drone1-line{
+            width: 20%;
+            height:2px;
+            border-width:0;
+            color:rgb(17, 16, 16);
+            background-color:rgb(17, 16, 16);
+            position: center
+        }
+        .articles img{
+            height: 140px;
+            width: 250px;
+
+        }
+        .drone1-line par{
+            text-align: center;
+        }
+        .paragraph{
+            background-color:#F8F8F8;
+            height: 1050;
+        }
+        .rows{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-around;
+          }
+        .Us h2{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .line{
+            width: 8%;
+            height:1px;
+            border-width:0;
+            color:rgb(17, 16, 16);
+            background-color:rgb(17, 16, 16);
+            
+        }
+        .about{
+            position: relative;
+            background-color: white;
+            display: flex;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 80px;
+            box-shadow: #000;
+            justify-content: space-between;
+           
+        }
+        .subscribe h1{
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        .about img{
+            width: 450px;
+            height: 500px;
+            display: flex;
+            border-right: 12px;
+            
+        
+        }
+        .subscribe{
+            text-align: center;
+            margin-top: 250px;
+        }
+        .submit{
+            height: 15px;
+            border: 15px;
+            box-shadow: 50px;
+            box-sizing: 50px;
+        }
+        .footer-social a {
+            background: none repeat scroll 0 0 rgb(170, 205, 245);
+            color: white;
+            display:inline-block;
+            font-size: 20px;
+            height: 40px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            padding-top: 5px;
+            text-align: center;
+            width: 40px;border: 1px solid #F8F8F8;
+            margin-top: 100px;
+            border-radius: 12px;
+          }
+          .footer-social a:hover {background-color: #222;border-color: #666}
+
+          .footer-social {margin-top: 100px}
+          footer{ 
+            display: flex;
+          }
+          footer ul{ 
+            width: 100%;
+            margin:0 0 0 24px;
+            list-style:none;
+            display:flex;
+            padding:20px 15px;
+            text-decoration:none;
+            font-family:Arial;
+            color:black;
+            text-align: center;
+       }
+       .footer-social ul{
+        display: flex;
+        text-align: center;
+        list-style: none;
+       }
+       .footer{
+        background-color: #cbdeec;
+       }
+       .p{
+           margin-top: 100px;
+           text-align: center;
+          }
+        .paragraph p{
+            text-align: left;
+         }
+         .footer button{
+            position:absolute;
+            right: 10px;
+            bottom: 70px;
+           
+         }
+        

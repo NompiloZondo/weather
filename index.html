@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .section1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%; 
+            height: 98vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: url("images/hero.jpg"); 
+        }
+        .section2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80vh;
+            text-align: center;
+            background-color: #F8F8F8;
+        }
+        .section3{
+            display: flex;
+            width: 100%;
+            height: 80vh;
+        }
+        .s3-block1{
+            width: 50%;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: url(/images/drone8.jpg);
+        }
+        .s3-block2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 80vh;
+
+        }
+        .s3-block2-holder{
+            max-width: 600px;
+        }
+        .section4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 40vh;
+            background-color: #F8F8F8;
+        }
+        .section5{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 15vh;
+        }
+        .iconx{
+            background: none repeat scroll 0 0 rgb(170, 205, 245);
+            color: white;
+            display:inline-block;
+            font-size: 20px;
+            height: 40px;
+            margin-right: 20px;
+            padding-top: 5px;
+            text-align: center;
+            width: 40px;border: 1px solid #F8F8F8;
+            border-radius: 12px;
+        }
+        .logo{
+            
+            text-decoration:none;
+            font-family:Arial;
+            color:black;
+            font-size: 24px;
+        }
+        .nav-item-1{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            
+        }
+        .nav-item{
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 10px;
+           
+        }
+        .nav-item a{
+                    font-size: 20px;
+                }
+        span{
+            color: #4d9fda;
+           
+    
+        }
+        .btn-holo{
+            background-color: rgba(0, 0, 0, 0);
+            font-family:Arial;
+            color:black;
+            font-size: 20px;
+            border: 2px solid black;
+            cursor: pointer;
+            width: 150px;
+        }
+        .heading{
+            text-align: center;
+            font-size:112px;
+            padding-top: 50px;
+        }
+        .head{
+            text-align: center;
+        }
+        .logo button{
+            position: absolute;
+            right: 10px;
+            top: 70px;
+            
+        }
+        .btn:hover{
+            border-color: #cbdeec;
+        }
+        .line{
+            width: 12%;
+            height:2px;
+            border-width:0;
+            color:rgb(17, 16, 16);
+            background-color:rgb(17, 16, 16);
+            
+        }
+        .dash{
+            width: 10%;
+            height:2px;
+            border-width:3;
+            color:black;
+            background-color:black;
+            position: center;
+        }
+        .dash2{
+            width: 10%;
+            height:2px;
+            border-width:3;
+            color:black;
+            background-color:black;
+            position: center;
+            margin-bottom: 30px;
+            margin-top: 40px;
+        }
+        .card{
+            width: 300px;
+            height: 400px;
+            margin: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 2px 2px gray;
+        }
+        .card-head{
+            width: 300px;
+            height: 200px;
+        }
+        .card-body{
+            width: 300px;
+            height: 200px;
+        }
+        input[type=text], select {
+                width: 400px;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 0px solid #ccc;
+                border-radius: 4px;
+                background-color: white;
+                box-sizing: border-box;
+                }
+               @media screen and(max-width:1200px) {
+                .card{
+                    width: 40px;
+                }
+                .section3{
+                    flex:50%;
+                    flex-shrink:0;
+                }
+                .s3-block2-holder{
+                    flex-flow:wrap;
+                    width:clamp(16rem,90vw,70em);
+                    margin:auto auto auto auto;
+
+                }
+                .section5{
+                    flex-direction: row;
+                    display: inline-block;
+                    flex-shrink: 0;
+                }
+               }
+                @media screen and(max-width:620px) {
+                    .section2{
+                        width:70%
+                    }
+                    .card{
+                    width:60%;
+                }
+                 .s3-block2-holder{
+                    flex-direction: column;
+                    flex: 1 1;
+                 }
+                 .s3-block1{
+                    width: 350px;
+                    height:100% ;
+                 }
+                }
+                .dz{
+                    font-size: 140px;
+                }
+
+    </style>
+    <nav style="width: 100%;position: absolute; left: 0px; top:0px; display:flex;justify-content: space-between;">
+        <div class="nav-item"><a class="logo" href="index.html">D<span>Z</span></a></div>
+        <div class="nav-item" style="display: flex;">
+            <div class="nav-item"><a class="logo" href="#">ABOUT</a></div>
+            <div class="nav-item"><a class="logo" href="#">ARTICLES</a></div>
+        </div>
+        <div class="nav-item"><button class="btn-holo">Subscribe</button></div>
+    </nav>
+    <section class="section1">
+        
+        <div>
+            <h1 class="heading"><strong>DRONOTICZ</strong></h1>
+            <h3 class="head">THE ERA OF DRONES</h3>
+            <hr class="line"></hr>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+            <h1><strong>LATEST ARTICLES</strong></h1>
+            <hr class="dash"></hr>
+            <div style="display: flex;">
+                    <div class="card">
+                            <img class="card-head" src="images/drone1.jpg" alt="">
+                        <div class="card-body"> 
+                            <hr class="dash2"></hr>
+                            <p>How to automate <br>survillance drones</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-head" src="images/drone2.jpg" alt="">
+                        <div class="card-body"> 
+                            <hr class="dash2"></hr>
+                            <p>Robotics and Artificial <br>intellegence</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-head" src="images/drone4.jpg" alt="">
+                        <div class="card-body"> 
+                            <hr class="dash2"></hr>
+                            <p>Improving Lives through <br>Robotics Prosthetics </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-head" src="images/drone6.jpg" alt="">
+                        <div class="card-body"> 
+                            <hr class="dash2"></hr>
+                            <p>Power of Robotics in <br>Agriculture</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <img class="s3-block1" src="images/drone8.jpg" alt="">
+        <div class="s3-block2">
+            <div class="s3-block2-holder">
+                 <h2 style="text-align: center;"><strong>ABOUT US</strong></h2>
+                 <hr class="dash"></hr>
+                 <br>
+                <p style="text-align: justify;">
+                    Welcome to our dronoticz, where innovation and technology converge to 
+                    shape the future. We revolutionize industries and improve lives worldwide
+                    through our passion for pushing the boundaries of what robots can do. 
+                    With expertise in AI, computer vision, mechanical engineering, and automation, 
+                    we lead the way in the robotics revolution. Our brilliant team creates          intelligent
+                    machines that seamlessly integrate into daily life, enhancing productivity,
+                    safety, and efficiency.Join us on this exciting journey as we unlock new
+                    frontiers, solve complex challenges, and shape a future where intelligent
+                    machines work hand-in-hand with humans. Discover the power of robotics
+                    and be part of the revolution.</p> 
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+            <div style="width: 800px; text-align: center;">
+                <h1>SUBSCRIBE</h1>
+                <h3>Sign up to our newsletter</h3>
+                <input type="text" id="your email" name=" " placeholder="Your email ">
+                <br><br>
+                <div ><button class="btn-holo">Submit</button></div>
+            </div>
+    </section>
+    <footer class="section5">
+            <div class="s5-block1" style="display: flex;margin: 10px;">  
+                <a class="iconx" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="iconx" href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="iconx" href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+            </div>
+            <div style="display: flex; margin:10px;">
+                <div class="nav-item"><a class="logo" href="#">ABOUT</a></div>
+                <div class="nav-item"><a class="logo" href="#">ARTICLES</a></div>
+                <div class="nav-item"><button class="btn-holo" type="button">Subscribe</button></div>
+                 
+            </div>
+    </footer>
+</body>
+</html>
